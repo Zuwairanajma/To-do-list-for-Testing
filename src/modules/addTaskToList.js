@@ -1,11 +1,11 @@
-import completeTaskFunc from './completingTask.js';
-import { saveTasksToStorage, updateTaskIndexesInStorage } from './localstorage.js';
-import editTaskFunc from './edittask.js';
-import fetchTask from './returnTask.js';
+  import completeTaskFunc from './completingTask.js';
+  import { saveTasksToStorage, updateTaskIndexesInStorage } from './localstorage.js';
+  import editTaskFunc from './edittask.js';
+  import fetchTask from './returnTask.js';
 
-let taskIdCounter = 0;
+  let taskIdCounter = 0;
 
-function addTaskToList(taskData, taskListElement, tasksArray) {
+  function addTaskToList(taskData, taskListElement, tasksArray) {
   const listItemElement = document.createElement('li');
   listItemElement.style.textDecoration = taskData.completed ? 'line-through' : 'none';
   listItemElement.className = 'list';
