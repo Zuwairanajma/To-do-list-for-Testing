@@ -4,7 +4,7 @@
   "description": "- [📖 About the Project](#about-project)\r   - [🛠 Built With](#built-with)\r     - [Tech Stack](#tech-stack)\r     - [Key Features](#key-features)\r - [💻 Getting Started](#getting-started)\r   - [Prerequisites](#prerequisites)\r   - [Setup](#setup)\r   - [Install](#install)\r   - [Usage](#usage)\r   - [Run tests](#run-tests)\r   - [Deployment](#deployment)\r - [👥 Authors](#authors)\r - [🔭 Future Features](#future-features)\r - [🤝 Contributing](#contributing)\r - [⭐️ Show your support](#support)\r - [🙏 Acknowledgements](#acknowledgements)\r - [📝 License](#license)",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "jest --coverage __tests__/todoFunctions.test.js",
+    "test": "jest",
     "start": "webpack serve --open",
     "build": "webpack"
   },
