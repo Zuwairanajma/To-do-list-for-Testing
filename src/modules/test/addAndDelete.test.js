@@ -1,5 +1,6 @@
 import deleteTask from '../deletetask.js';
 import { updateTaskIndexesInStorage, updateLocalStorage } from '../localstorage.js';
+
 const { JSDOM } = require('jsdom');
 const { addTaskToList } = require('../addTaskToList.js');
 
