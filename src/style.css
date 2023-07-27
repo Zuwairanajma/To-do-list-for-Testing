@@ -1,0 +1,144 @@
+
+/* buttons */
+button {
+  border: none;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#btn-refresh {
+  transform: rotate(0deg);
+  margin-right: 10px;
+  transition: transform 0.3s ease; /* Add a transition property to specify the animation duration and easing */
+}
+
+#btn-refresh.clicked {
+  transform: rotate(90deg);
+}
+
+.clear-items button {
+  background-color: inherit;
+  font-size: 16px;
+}
+
+/* horizental rule */
+hr {
+  border: none;
+  height: 1.3px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+}
+
+.check-box {
+  margin-right: 5%;
+}
+
+.option-icon {
+  float: right;
+}
+
+/* Clear button  */
+.clear-items {
+  padding: 4% 3%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(244, 244, 244);
+  margin-top: 0;
+}
+
+.list-container {
+  box-shadow: 15px 16px 17px 5px rgba(0, 0, 0, 0.5);
+  width: 45%;
+  margin: 10% auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.list-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.add-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 5px;
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  min-width: 90%;
+  padding-left: 1%;
+}
+
+.add-task input:focus {
+  outline: none;
+}
+
+.add-task button {
+  transform: rotate(90deg);
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.list-items {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.list-item input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: none;
+}
+
+.list-item.completed {
+  text-decoration: line-through;
+}
+
+#delBtn {
+  display: none;
+}
+
+.option-icon button:hover {
+  cursor: move;
+}
+
+#btn-refresh:hover {
+  cursor: pointer;
+  color: rgb(52, 52, 52);
+}
+
+.add-task button:hover {
+  cursor: pointer;
+  color: rgb(52, 52, 52);
+}
+
+.clear-items button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(52, 52, 52);
+}
