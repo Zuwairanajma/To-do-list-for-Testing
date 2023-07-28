@@ -1,12 +1,4 @@
-import deleteTask from '../deletetask.js';
-import { updateTaskIndexesInStorage, updateLocalStorage } from '../localstorage.js';
 
-const { JSDOM } = require('jsdom');
-const { addTaskToList } = require('../addTaskToList.js');
-
-describe('addTaskToList', () => {
-  let taskList;
-  let tasks;
 
   beforeEach(() => {
     const dom = new JSDOM();
