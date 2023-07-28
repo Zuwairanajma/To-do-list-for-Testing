@@ -1,6 +1,11 @@
 import './style.css';
-import addTaskToList from './modules/addTaskToList.js';
-import { saveTasksToStorage, loadTasksFromStorage } from './modules/localstorage.js';
+import {
+  addTaskToList,
+  saveTasksToStorage,
+} from './modules/addTaskToList.js'; // Updated import statement
+// import addTaskToList from './modules/addTaskToList.js';
+// import { saveTasksToStorage, loadTasksFromStorage } from './modules/localstorage.js';
+import { loadTasksFromStorage } from './modules/localstorage.js';
 import clearCompletedTasks from './modules/remove.js';
 
 let tasks = loadTasksFromStorage();
