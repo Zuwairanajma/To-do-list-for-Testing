@@ -178,3 +178,8 @@ button[type='submit'] {
   margin-left: 0.5rem;
   padding: 0;
 }
+
+#refresh {
+  border: none;
+  background-color: transparent;
+}

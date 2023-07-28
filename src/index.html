@@ -21,19 +21,20 @@
         <header>
           <div class="display-div">
             <h2>Today's To Do</h2>
-            <i id="refresh" class="fa fa-refresh"></i>
+            <button id="refresh">
+            <i id="refresh" class="fa fa-refresh"></i></button>
           </div>
         </header>
         <hr class="hr" />
-        <form>
+       
+            <form class="add-task">
           <input
             type="text"
             id="new-task-add"
             placeholder="Add to your list..."
           />
           <button class="icon-uil" type="submit"><i class="uil uil-enter"></i></button>
-         
-        </form>
+            </form>
         <div>
           <ul id="todo-task-list"></ul>
           <p id="clear" class="wipe-all-out">Clear all completed</p>
