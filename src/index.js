@@ -1,4 +1,5 @@
-import './style.css';
+import './index.css';
+
 import {
   addTaskToList,
   saveTasksToStorage,
@@ -10,7 +11,7 @@ import clearCompletedTasks from './modules/remove.js';
 
 let tasks = loadTasksFromStorage();
 
-const taskList = document.getElementById('todo-list');
+const taskList = document.getElementById('todo-task-list');
 const taskInput = document.querySelector('.add-task input');
 
 taskInput.addEventListener('keyup', (event) => {
