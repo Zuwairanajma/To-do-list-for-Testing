@@ -1,4 +1,16 @@
+import completionFunction from '../completingTask.js';
 
+const { JSDOM } = require('jsdom');
+
+jest.mock('../localstorage', () => ({
+  updateLocalStorage: jest.fn(),
+}));
+
+describe('completionFunction', () => {
+  beforeEach(() => {
+    const dom = new JSDOM();
+    global.document = dom.window.document;
+  });
 
   afterEach(() => {
     global.document = undefined;
