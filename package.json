@@ -8,7 +8,6 @@
     "start": "webpack serve --open",
     "build": "webpack"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
