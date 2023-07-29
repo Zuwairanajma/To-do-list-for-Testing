@@ -4,18 +4,24 @@
   "description": "- [📖 About the Project](#about-project)\r   - [🛠 Built With](#built-with)\r     - [Tech Stack](#tech-stack)\r     - [Key Features](#key-features)\r - [💻 Getting Started](#getting-started)\r   - [Prerequisites](#prerequisites)\r   - [Setup](#setup)\r   - [Install](#install)\r   - [Usage](#usage)\r   - [Run tests](#run-tests)\r   - [Deployment](#deployment)\r - [👥 Authors](#authors)\r - [🔭 Future Features](#future-features)\r - [🤝 Contributing](#contributing)\r - [⭐️ Show your support](#support)\r - [🙏 Acknowledgements](#acknowledgements)\r - [📝 License](#license)",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage __tests__/todoFunctions.test.js",
     "start": "webpack serve --open",
     "build": "webpack"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
     "css-loader": "^6.8.1",
     "eslint": "^8.45.0",
     "hint": "^7.1.10",
     "html-webpack-plugin": "^5.5.3",
+    "jest": "^29.6.1",
+    "jest-environment-jsdom": "^29.6.1",
     "style-loader": "^3.3.3",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",

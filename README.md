@@ -19,11 +19,11 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 To Do List<a name="about-project"></a>
+# 📖 To Do List Testing<a name="about-project"></a>
 
-This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML CSS, Javascript and webpack.
+This webpage shows a sneak peek into the project we have developed and deployed, showcasing our skills in HTML CSS, Javascript and webpack.
 
-**[To Do List]** is an HTML, CSS and Javascript project
+**[To Do List Testing]** is an HTML, CSS and Javascript project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,8 +54,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd Todo-list-structure
-  git clone https://github.com/ngalamac/Todo-list-structure.git
+  cd your directory
+  git clone https://github.com/ngalamac/To-do-list-for-testing.git
 ```
 
 ### Install
@@ -63,7 +63,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Todo-list-structure
+  cd To-do-list-for-testing
   npm install
 ```
 
@@ -98,6 +98,10 @@ You can deploy this project using:
 - GitHub: [ngalamac](https://github.com/ngalamac)
 - LinkedIn: [Ngala Mac](https://www.linkedin.com/in/ngala-mac-872a65220/)
 
+👤 **Zuwaira Sadiq**
+- GitHub: [@Zuwairanajma](https://github.com/Zuwairanajma)
+- Twitter: [@SadiqJuwairiyya](https://twitter.com/SadiqJuwairiyya)
+- LinkedIn: [Zuwaira Sadiq](https://www.linkedin.com/in/zuwaira-sadiq-566b891b0?)
 
 ## 🔭 Future Features <a name="future-features"></a>
 

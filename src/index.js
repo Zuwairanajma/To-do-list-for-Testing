@@ -1,7 +1,14 @@
 // index.js
 
 import './style.css';
-import { tasks, addTask, deleteTask, editTaskDescription, saveToLocalStorage, loadFromLocalStorage } from './todoFunctions';
+import {
+  tasks,
+  addTask,
+  deleteTask,
+  editTaskDescription,
+  saveToLocalStorage,
+  loadFromLocalStorage,
+} from './todoFunctions';
 
 document.addEventListener('DOMContentLoaded', () => {
   loadFromLocalStorage();
@@ -32,6 +39,16 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         removeDeleteButton(index);
       }
+      saveToLocalStorage();
+    }
+  });
+
+  // Event listener for editing a task description
+  todoList.addEventListener('input', (event) => {
+    if (event.target.classList.contains('task-description')) {
+      const index = parseInt(event.target.dataset.index);
+      const newDescription = event.target.textContent.trim();
+      editTaskDescription(index, newDescription);
       saveToLocalStorage();
     }
   });
