@@ -1,0 +1,97 @@
+/* Add styles for the input and button */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+  margin: 20px 280px 20px 280px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.todo-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  margin-left: -40px;
+}
+
+li {
+  list-style: none;
+  background-color: #fff;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.clear-completed-btn {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear-completed-btn:hover {
+  background-color: #d32f2f;
+}
+
+.vertical-dots {
+  margin-left: 150px;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+/* style.css */
+
+/* ... */
+
+/* Add the trash can icon styles for delete button */
+.delete-task-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* Adjust the font size to your preference */
+  display: none;
+}
+
+.delete-task-btn::before {
+  content: '\1F5D1'; /* Unicode for trash can icon */
+}
+
+/* Show edit and delete buttons when dots are clicked */
+.todo-item .task-actions .edit-task-btn,
+.todo-item .task-actions .delete-task-btn {
+  display: none;
+}
+
+.todo-item .task-actions.show .edit-task-btn,
+.todo-item .task-actions.show .delete-task-btn {
+  display: inline-block;
+}
+
+/* Adjust gap between list item and dots */
+.task-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+/* ... */
