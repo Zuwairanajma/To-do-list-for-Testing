@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # 📗 Table of Contents
 
